@@ -39,7 +39,7 @@ To run the Python scripts, you can use the provided `.vscode/launch.json` config
 
 ## Requirements
 
-- Python 3.11.5 or later
+- Python 3.10 or later
 - Jupyter Notebook
 - Matplotlib (for plotting)
 
