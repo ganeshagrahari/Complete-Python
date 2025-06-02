@@ -4,9 +4,9 @@ def selection(arr):
         mini = i
         for j in range(i+1,n):
             if arr[j]<arr[mini]:
-                mini = j 
+                mini = j
                 arr[i],arr[mini]= arr[mini],arr[i]
 
-arr = [24,41,33,42,17]
-selection(arr)
-print("The sorted array is :", arr )                
+arr = [10,40,2,17]
+selection(arr)                
+print("the sorted array is :",arr)

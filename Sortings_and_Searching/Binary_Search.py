@@ -10,4 +10,6 @@ def binary(arr,target):
             right = mid -1
     return -1        
                 
-        
+                
+arr = [3,2,4,5,9]  
+print(binary(arr,11))              

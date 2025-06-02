@@ -1,14 +1,14 @@
-def insertion(arr1):
-    n = len(arr1)
-    
+def insertion(arr):
+    n = len(arr)
     for i in range(1,n):
-        key = arr1[i]
-        j = i-1
-        while j>=0 and key < arr1[j]:
-            arr1[j+1]=arr1[j]
+        key = arr[i]
+        j = i-1 
+        while j>=0 and key <arr[j]:
+            arr[j+1]= arr[j]
             j-=1
-        arr1[j+1] = key    
-
-arr1 = [40,30,20,10]
-insertion(arr1)
-print("Sorted array is :", arr1)            
+        arr[j+1]= key
+        
+arr = [40,30,20,10]
+insertion(arr)
+print("The sorted array  is : ",arr)        
+            
